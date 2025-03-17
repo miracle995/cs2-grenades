@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.map-card {
+    background-color: #292929;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.map-card:hover {
+    transform: scale(1.1);
+}
+
+.map-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.map-card span {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.grenade {
+    background-color: #292929;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.grenade img {
+    width: 100%;
+    border-radius: 5px;
+}
